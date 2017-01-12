@@ -15,14 +15,10 @@ first.three <- z[c(1, 2, 3)]
 first.three
 
 # Create a vector `small` that has the values of `z` that are less than 5
-small <- c(z < 5)
-smallest <- z[small] 
-smallest
-
+small <- z[z<5]
 # Create a vector `large` that has the values of `z` that are greater than or equal to 5
-large <- c(z > 5)
-largest <- z[large]
-largest
+large <- z[z> 5]
+
 
 ### Bonus ###
 
